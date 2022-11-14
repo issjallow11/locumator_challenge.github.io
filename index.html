@@ -1,0 +1,44 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body{
+      margin-top: 20px;
+      padding-top: 20px;
+      text-align: center;
+      font-family: 'Courier New', Courier, monospace;
+    }
+    h1{
+      text-transform: capitalize;
+    }
+    input{
+      border: 1px solid black;
+      padding: 5px 0 5px 0;
+      margin: 5px 0 5px 0;
+    }
+    button{
+      margin-top: 5px;
+      border: 2px solid grey;
+      background-color: green;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+    <h1>Getting the difference in days between two dates</h1>  
+      <div>
+        <label>First Date</label> 
+       <input id="date1" type="date"></input>
+      </div>
+      <div>
+        <label>Second Date</label>
+        <input id="date2" type="date"></input>
+      </div>
+      <button id="submit" type="submit" onclick="difference_between_two_dates()">Print Difference</button>
+      <h4 id="value"></h4>
+  <script src="index.js"></script>
+</body>
+</html>
